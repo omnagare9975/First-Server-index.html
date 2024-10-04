@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome to Your First Server!</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500&display=swap" rel="stylesheet">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            font-family: 'Poppins', sans-serif;
+            background: linear-gradient(135deg, #6e7dff, #d2a6ff);
+            color: #333;
+            height: 100vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            overflow: hidden;
+        }
+        header {
+            background-color: rgba(255, 255, 255, 0.8);
+            border-radius: 10px;
+            padding: 20px;
+            margin-bottom: 20px;
+            box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+            width: 90%;
+        }
+        header h1 {
+            font-size: 3rem;
+            margin-bottom: 10px;
+            color: #4CAF50;
+        }
+        header p {
+            font-size: 1.2rem;
+            color: #555;
+        }
+        .card {
+            background: rgba(255, 255, 255, 0.9);
+            border-radius: 15px;
+            box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+            padding: 40px;
+            max-width: 500px;
+            margin: 20px;
+            transition: transform 0.3s, box-shadow 0.3s;
+        }
+        .card:hover {
+            transform: translateY(-10px);
+            box-shadow: 0 10px 40px rgba(0, 0, 0, 0.2);
+        }
+        .card h2 {
+            font-size: 2.5rem;
+            color: #333;
+            margin-bottom: 15px;
+        }
+        .card p {
+            font-size: 1.2rem;
+            margin-bottom: 25px;
+            color: #666;
+        }
+        button {
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            padding: 15px 25px;
+            font-size: 1.2rem;
+            cursor: pointer;
+            border-radius: 10px;
+            transition: background-color 0.3s, transform 0.2s;
+        }
+        button:hover {
+            background-color: #45a049;
+            transform: scale(1.05);
+        }
+        footer {
+            background-color: rgba(255, 255, 255, 0.8);
+            color: #333;
+            padding: 15px;
+            width: 100%;
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            text-align: center;
+            border-top: 1px solid #ddd;
+        }
+        footer p {
+            margin: 0;
+        }
+        footer a {
+            color: #4CAF50;
+            text-decoration: none;
+        }
+        footer a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>🎉 Congratulations! 🎉</h1>
+        <p>You've successfully deployed your first server!</p>
+    </header>
+
+    <div class="card">
+        <h2>Welcome to Your First Cloud Server!</h2>
+        <p>You've just taken your first step into the world of cloud computing. This website is running on a server that YOU deployed!</p>
+        <button onclick="alert('Great Job! Keep Learning!')">Celebrate Your Success 🎊</button>
+    </div>
+
+    <footer>
+        <p>&copy; 2024 Your Cloud Journey | Learn more about <a href="#">AWS Cloud</a></p>
+    </footer>
+</body>
+</html>
+
